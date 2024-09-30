@@ -4,8 +4,8 @@ global class MyBatchApexClass2 implements Database.Batchable<Sobject> {
     }
     global void execute(Database.BatchableContext bc,List<Course__c>Scope){
         for(Course__c cos:Scope){
-            cos.Website__c='www.oksa.com';
-            cos.Discount__c=30;
+            cos.Website__c='www.gov.com';
+            cos.Discount__c=25;
         }
         Update Scope;
     }
