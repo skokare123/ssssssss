@@ -2,7 +2,7 @@ public class TestApexClass {
 String Name;
     integer No;
     public TestApexClass(){ 
-        Name='Suresh B Kokare';
+        Name='Suresh Kokare';
         No=832905;
     }
     public void Method1(){
